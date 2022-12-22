@@ -2945,7 +2945,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "exploraction-sandbox\\png\\MINIMAL.png"
+            "filename": "exploraction-sandbox\\png\\MINIMAL.png",
+            "tileColors": []
         },
         {
             "id": "1926845c-337d-4361-bb49-bd0e8f346b68",
@@ -2955,7 +2956,8 @@
             "height": 39,
             "imageWidth": 336,
             "imageHeight": 312,
-            "filename": "exploraction-sandbox\\png\\SANDBOX.png"
+            "filename": "exploraction-sandbox\\png\\SANDBOX.png",
+            "tileColors": []
         },
         {
             "id": "b80b822e-ce38-4884-91db-38162e708e1d",
@@ -2965,7 +2967,8 @@
             "height": 18,
             "imageWidth": 336,
             "imageHeight": 144,
-            "filename": "exploraction-sandbox\\png\\STRETCH.png"
+            "filename": "exploraction-sandbox\\png\\STRETCH.png",
+            "tileColors": []
         }
     ],
     "spriteSheets": [
@@ -4588,7 +4591,7 @@
         },
         {
             "id": "plat_dash",
-            "value": 0
+            "value": 1
         },
         {
             "id": "plat_dash_style",
@@ -4629,6 +4632,14 @@
         {
             "id": "plat_max_fall_vel",
             "value": 10000
+        },
+        {
+            "id": "plat_walk_vel",
+            "value": 6500
+        },
+        {
+            "id": "plat_run_vel",
+            "value": 6500
         }
     ],
     "settings": {
@@ -4640,9 +4651,9 @@
         "startDirection": "up",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 2854,
-        "worldScrollY": 2430,
-        "zoom": 300,
+        "worldScrollX": 1328,
+        "worldScrollY": 1763,
+        "zoom": 225,
         "customColorsEnabled": true,
         "sgbEnabled": true,
         "customHead": "",
