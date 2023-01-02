@@ -15417,7 +15417,7 @@
                     "name": "",
                     "id": "231d8c02-75ef-4301-a34c-7f1fabd98c89",
                     "x": 18,
-                    "y": 7,
+                    "y": 6,
                     "symbol": "trigger_30",
                     "width": 6,
                     "height": 1,
@@ -37527,8 +37527,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 4148,
-        "worldScrollY": 1440,
+        "worldScrollX": 5959,
+        "worldScrollY": 1380,
         "zoom": 275,
         "customColorsEnabled": true,
         "sgbEnabled": true,
@@ -37580,6 +37580,14 @@
             "EVENT_SWITCH_SCENE"
         ],
         "defaultFadeStyle": "white",
-        "playerSpriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd"
+        "playerSpriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+        "customControlsUp": [
+            "ArrowUp",
+            "w"
+        ],
+        "customControlsDown": [
+            "ArrowDown",
+            "s"
+        ]
     }
 }
